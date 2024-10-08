@@ -12,6 +12,6 @@ export default function handler(req, res) {
         res.redirect("https://yourwebsite.com/path-to-correct-file.zip");
     } else {
         // Redirect to a dummy website
-        res.redirect("https://dummy-website.com");
+        res.redirect("https://kikoulepoulet.github.io/anti-bypass-website");
     }
 }
