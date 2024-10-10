@@ -19,7 +19,7 @@ export default function handler(req, res) {
     if (token === expectedToken) {
         // Token is valid, redirect to the main website
         console.log("Token matched! Redirecting to the main site...");
-        return res.redirect("https://phantom-navy-one.vercel.app/");
+        return res.redirect("https://kikoulepoulet.github.io/Phantom/");
     } else {
         // Token is invalid, log and redirect to dummy site
         console.log("Invalid token. Redirecting to dummy site...");
