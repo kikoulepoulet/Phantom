@@ -4,7 +4,7 @@ export default function handler(req, res) {
     const { token } = req.query;
 
     // Define the expected token
-    const expectedToken = " 1b08ee393d156702c60a3da9cc2def067ee8ceed7a5beb957bab14c094b84817";
+    const expectedToken = "1b08ee393d156702c60a3da9cc2def067ee8ceed7a5beb957bab14c094b84817";
 
     // Check the token
     if (token === expectedToken) {
