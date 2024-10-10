@@ -2,7 +2,7 @@ export default function handler(req, res) {
     // Extract token from query parameters
     const { token } = req.query;
 
-    // Define the expected token
+    // Define the new expected token
     const expectedToken = "8308272f738a0d7ae5ca82e6a958cd175eb9fc223250aea8bf205d1dc0e88864";
 
     // Debugging: Log the received token
