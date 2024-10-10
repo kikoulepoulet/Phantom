@@ -4,14 +4,14 @@ export default function handler(req, res) {
     const { token } = req.query;
 
     // Define the expected token
-    const expectedToken = "1b08ee393d156702c60a3da9cc2def067ee8ceed7a5beb957bab14c094b84817";
+    const expectedToken = "c0e73fe4ef420c1592bfb46227dc4a7cf3767b532b83d5259d3b6094c2ea81bd";
 
     // Check the token
     if (token === expectedToken) {
         // Redirect to the correct file
-        res.redirect("https://kikoulepoulet.github.io/antibypass/");
+        res.redirect("https://kikoulepoulet.github.io/Phantom/");
     } else {
         // Redirect to a dummy website
-        res.redirect("https://phantom-navy-one.vercel.app/");
+        res.redirect("https://kikoulepoulet.github.io/antibypass/");
     }
 }
